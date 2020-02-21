@@ -1,0 +1,106 @@
+body{
+    direction: rtl;
+}
+.contact-us{
+    margin:5px;
+}
+.contact-us .container{
+    background:#e3f2fd ;
+    border: 2px solid #800202;
+    border-radius: 20px ;
+}
+.contact-us h1{
+    background: #c80303;
+    width: 250px;
+    margin: auto;
+    border-radius: 0px 0px 50px 50px;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-us .logo{
+    display: flex;
+    margin: auto;
+    width: 215px;
+}
+.contact-us .number , .email{
+    background-color: #c80303;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-bottom: 10px;
+}
+.contact-us .number:hover{
+    background-color: #800202;
+}
+.contact-us .email:hover{
+    background-color: #800202;
+}
+/* start with social media icons */
+.contact-us .media{
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 35px;  
+}
+.contact-us .media ul{
+    display: contents;  
+}
+.media i {
+    cursor: pointer;
+    margin: 0 10px;
+}
+.facebook{
+    color: #3b5998;
+}
+.twitter{
+    color: #1da1f2;
+}
+.youtube{
+    color: #ff0000;
+}
+.insta{
+    color: #c13584;
+}
+.whatsapp{
+    color: #25d366;
+}
+.google{
+    color: #dd4b39;
+}
+/* start with contact form */
+.form-control {
+    margin: 10px 0;
+    border-radius: 10px;
+}
+textarea {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.send{
+    font-weight: bold;
+    background-color: #c80303;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+.send:hover{
+    background-color:#800202 ;
+}
+.pic {
+    margin-top: -50px ;
+}
+
+footer{
+    background-color: #2E86C1;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 20px 20px 0 0;
+}
+
+

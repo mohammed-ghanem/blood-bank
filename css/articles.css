@@ -1,0 +1,224 @@
+
+body{
+    direction: rtl;
+}
+
+/*start for background image*/
+.background{
+    background-image: url("../images/back2.jpg");
+}
+/*start overlay for image*/
+.overlay{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgba(227, 242, 253, .9);
+}
+.background .container{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+/*start notification icon*/
+.notification{
+    margin: 20px 0;
+}
+.notification i{
+    font-size: 30px;
+    cursor: pointer;
+}
+/*start drop list */
+.drop-list{
+    text-align: right;
+    background: rgba(52, 73, 94, 0.8);
+    color: white;
+    width: 250px;
+    height: auto;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 15;
+    border-radius: 50px 0 0 50px;
+    right: -300px;
+}
+.drop-list  ul li , .drop-bell  ul li {
+    padding: 10px 0;
+}
+.drop-list ul li a{
+    color: #fff;
+}
+.drop-list ul li a:hover{
+    color:#800202 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*start drop bell*/
+.drop-bell{
+    text-align: right;
+    background: rgba(52, 73, 94, 0.8);
+    color: white;
+    width: 250px;
+    height: auto;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 15;
+    left: -300px;
+    border-radius: 0 50px 50px 0;
+}
+.drop-bell ul li:hover {
+    color:#800202 ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*end drop list & bell */
+
+/*start select button*/
+.select {
+    margin-bottom: 20px ;
+}
+.select .btn {
+    border-radius: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    background: #ff4c4c;
+    margin: 5px 15px;
+    transition: all .4e ease-in-out;
+}
+.select .btn:hover{
+    background: #800202;
+}
+.active {
+    background: #800202!important;
+}
+/*end select button*/
+
+/*start all content*/
+.all-content > div:not(:first-child) {
+    display: none;
+}
+.card {
+    text-align: right;
+    margin: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #800202;
+}
+.card img{
+    padding: 15px 0;
+}
+h5{
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+p{
+    font-weight: bold;
+}
+/*start all-request form*/
+.all-request .kind-blood{
+    border: 1px solid #800202;
+    border-radius: 50px;
+    overflow: hidden;
+    background: #fff;
+    margin: 8px auto 0;
+}
+.all-request h1{
+    color: #e74c3c;
+}
+ .all-request .names{
+     border-radius: 50px;
+     align-items: center;
+     background:none;
+     font-weight: bold;
+     margin: 5px auto;
+     border: 1px solid #800202;
+ }
+ .all-request .info {
+     padding-top: 5px;
+ }
+ .all-request .call {
+     font-weight: bold;
+     color: white;
+     background: #800202;
+     border-radius: 20px;
+     margin: 0 auto 5px;
+ }
+
+/*start new-request form*/
+.new-request{
+    border: 2px solid #800202;
+    position: relative;
+    right: 0;
+    left: 0;
+    width: 400px;
+    margin: 10vh auto;
+    border-radius: 15px ;
+    padding: 5px 15px;
+    z-index: 9;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .new-request {margin-top: 4vh ;width: 315px}
+}
+.new-request h2{
+    font-weight: bold;
+    color: #e74c3c;
+    margin: 5px 0;
+}
+input {
+    margin: 10px 0;
+}
+.new-request textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px ;
+}
+/* .new-request .send {
+    margin: 5px 0;
+    line-height: 0;
+    border-radius: 50px;
+} */
+.new-request .send {
+    font-weight: bold;
+    background-color: #c80303;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+.new-request .send:hover{
+    background-color:#800202 ;
+}
+/*start footer */
+.container footer {
+    text-align: center;
+    font-family: initial;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #E74C3C;
+}
+/*start scroll icon*/
+.scroll{
+    position: fixed;
+    right: 5px;
+    font-size: 50px;
+    bottom: 10px;
+    z-index: 12;
+    color: #800202;
+    cursor: pointer;
+    display: none;
+}
+.modal {
+    direction: rtl
+}
+.modal-header ul li{
+    display: block;
+    line-height: 10px;
+    font-weight: bold;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .modal-header ul li {line-height: 25px;}
+}
+.modal-footer button{
+    margin: auto;
+    font-weight: bold;
+}
