@@ -106,9 +106,26 @@ body{
     box-shadow: 10px 10px 10px #c6acac;
     position: relative;
     overflow: hidden;
+    z-index: 1;  
 }
 
+.articles .card:after{
+    content: "";
+    background-color:#00000045;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition: all .8s;
+    z-index: -1;
+    
 }
+.articles .card:hover:after{
+    width: 100%;
+    
+}
+
+
 .articles .card h5{
     color: #c80303;
     font-size: 25px;
