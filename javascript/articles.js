@@ -55,16 +55,6 @@ $(document).ready(function () {
 
             });
 
-// start select slider to show  dropdown list
-
-
-
-
-
-
-// end select slider to show  dropdown list
-
-
 // start icon for scrolling top
 
         $(window).scroll(function(){
